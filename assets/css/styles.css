@@ -330,7 +330,7 @@ img {
 }
 
 .about__img {
-  width: 150px;
+  width: 375px;
   border-radius: .4rem;
   margin: 0 auto;
 }
@@ -555,7 +555,7 @@ img {
 
 /* ===== MEDIA QUERIES=====*/
 
-/* iPad */
+/* Tablet */
 @media screen and (min-width: 768px) {
   .home__button {
     width: initial;
@@ -582,7 +582,7 @@ img {
   }
 
   .about__img {
-    width: 220px;
+    width: 100%;
   }
 
   .about__information {
@@ -626,6 +626,16 @@ img {
 
   .nav__menu {
     left: 0;
+    background-image: url(..//images/logo-desktop.png);
+    background-repeat: no-repeat;
+    background-size: 10rem;
+    background-position: center 50px;
+    /* width: 200px;
+    height: 200px; */
+  }
+
+  .nav__list {
+    margin-top: 200px;
   }
 
   .home__container {
